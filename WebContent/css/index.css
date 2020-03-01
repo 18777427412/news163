@@ -1,0 +1,229 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding-top: 76px;
+}
+li{
+	list-style: none;
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+em{
+	font-style: normal;
+}
+/*头部*/
+.header{
+	width: 100%;
+	background: red;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.aDiv{
+	width: 65px;
+	text-align: center;
+	float: left;
+}
+.aDiv a:nth-of-type(1){
+	width: 43px;
+	height: 40px;
+	background: url(../img/wangyi_logo.png) no-repeat center;
+	background-size: contain;
+	display: inline-block;
+}
+.header form .inp{
+	height: 30px;
+	width: 210px;
+	border-radius: 15px;
+	border: none;
+	margin: 5px 1px;
+	text-align: center;
+	background: #EC5658 url(../img/搜索.png) no-repeat;
+	padding-left: 18px;
+	background-size: 16px;
+	background-position: 60px 7px;
+}
+.header input::-webkit-input-placeholder { 
+	color: #fff;
+	opacity: 0.9;
+}
+/*搜索罩层*/
+.layer{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: none;
+    bottom: 0;
+    left: 0;
+	background: #FFF;
+	z-index: 9000;
+	padding-top: 10px;
+}
+.layer .col-xs-1 em{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+}
+.layer .col-xs-9 .inp{
+	border-radius: 10px;
+	border: 1px solid #C0C0C0;
+	width: 100%;
+	height: 25px;
+	color: #C0C0C0;
+	background:  url(../img/罩层搜索.png) no-repeat;
+	padding-left: 35px;
+	background-size: 15px;
+	background-position: 15px 4px;
+}
+input::-webkit-input-placeholder { 
+	color: #C0C0C0;
+}
+.layer .col-xs-2 em{
+	font-size: 15px;
+	line-height: 25px;
+}
+.layer .row .col-md-1{
+	border-top: 1px solid #C0C0C0;
+	padding: 10px;
+}
+.layer .row .col-md-1 em:nth-of-type(2){
+	margin-left: 20px; 
+	display: inline-block;
+	width: 80%;
+}
+.layer .row .col-md-1 em:nth-of-type(3){
+	float: right;
+}
+#row2{
+	margin-top: 10px;
+}
+/*菜单*/
+.nav{
+	width: 100%;
+	position: fixed;
+	top: 41px;
+	z-index: 999;
+	background: #fff;
+}
+.nav .swiper-wrapper{
+	padding: 5px;
+}
+.nav .swiper-slide{
+	text-align: center;
+	color: #777777;
+	font-size: 15px;
+}
+/*刷新*/
+.loadMoreTop{
+    position:relative;
+    overflow:hidden;
+    height:0;
+    max-height: 60px;
+    text-align: center;
+}
+.refresh{
+    position:absolute;
+    bottom:0;
+    text-align: center;
+    line-height: 30px;
+    color: #999;
+    width: 100%;
+}
+/*登录*/
+.enroll{
+	width: 80%;
+	height: 30px;
+	color: #6AADCE;
+	background: #E6F3FD;
+	border-radius: 15px;
+	padding: 4px 20px;
+	margin: 0 auto;
+	line-height: 30px;
+	font-size: 14px;
+}
+.enroll p{
+	float: left;
+}
+.enroll span em{
+	float: right;
+	margin-right: 10px;
+}
+.enroll span em:nth-of-type(2){
+	width: 55px;
+	height: 25px;
+	border-radius: 20px;
+	border: 1px solid;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 1px;
+}
+/*新闻内容*/
+.content{
+	width: 100%;
+}
+.content .row{
+	border-bottom: 1px #E5E5E5 solid;
+	padding: 10px;
+}
+.content h3{
+	font-size: 17px;
+	margin: 5px 0;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.content img{
+	width: 111px;
+	height: 75px;
+}
+.content span em{
+	font-size: 10px;
+	color: #888888;
+}
+.content span em:nth-of-type(2){
+	margin-left: 10px;
+}
+/*底部*/
+.btm{
+	width: 100%;
+	position:fixed;
+	bottom:0;
+	z-index:999;
+	background: #FFFFFF;
+	height: 40px;
+}
+.btm .row{
+	margin-top: 5px;
+}
+.btm .col-xs-4{
+	width: 25%;
+	color: #A8A8A8;
+	text-align: center;
+	font-size: 12px;
+}
+.btm .col-xs-4:nth-of-type(1){
+	color: red;
+}
+.btm .col-xs-4 img{
+	width: 30%;
+}
+/*视频*/
+#video{
+	display: none;
+}
+/*圈子*/
+#ring{
+	display: none;
+}
+/*我*/
+#me{
+	display: none;
+}
