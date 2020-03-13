@@ -33,7 +33,6 @@ public class Pull extends HttpServlet {
 		//System.out.println(st);
 		
 		
-		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
