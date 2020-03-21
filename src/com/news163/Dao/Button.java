@@ -18,7 +18,7 @@ public class Button {
 		PreparedStatement pstmt=null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://106.13.122.252:3306/news?useSSL=false&useUnicode=true&characterEncoding=utf-8","root","root");
+			con=DriverManager.getConnection("jdbc:mysql://106.54.1.41:3306/news?useSSL=false&useUnicode=true&characterEncoding=utf-8","root","root");
 		}catch ( ClassNotFoundException e) {
 			// TODO: handle exception
 		} catch (SQLException e) {
