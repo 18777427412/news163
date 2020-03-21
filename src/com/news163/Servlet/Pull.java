@@ -31,8 +31,6 @@ public class Pull extends HttpServlet {
 		response.setContentType("application/json charset=UTF-8");
 		response.getWriter().write(st);
 		//System.out.println(st);
-		
-		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
